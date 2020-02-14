@@ -182,7 +182,7 @@ if __name__ == '__main__':
 ############################ DEPARTURE FROM EARTH #############################
 
     # determine perigee altitude
-    alt = 100 #km
+    alt = 185 #km
     # energy equation for hyperbolic trajectory from earth
     epsilon = np.linalg.norm(v_inf_e)**2/2
     # required velocity at perigee
